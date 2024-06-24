@@ -89,20 +89,20 @@ export default function Instituto() {
             <ul className="mt-2 space-y-2 text-gray-500 dark:text-gray-400">
               <li className="hover:text-black">
                 {" "}
-                <Link href="/carreras">
+                <Link href="/carreras#tecnicaturas">
                   <ChevronRightIcon className="w-4 h-4 inline-block mr-2 hover:text-black" />
                   Tecnicaturas Superiores
                 </Link>
               </li>
               <li className="hover:text-black">
                 {" "}
-                <Link href="/carreras">
+                <Link href="/carreras#formaciones">
                   <ChevronRightIcon className="w-4 h-4 inline-block mr-2 hover:text-black" />
                   Formaciones Profesionales
                 </Link>
               </li>
               <li className="hover:text-black">
-                <Link href="/carreras">
+                <Link href="/carreras#cursos">
                   <ChevronRightIcon className="w-4 h-4 inline-block mr-2 hover:text-black" />
                   Cursos
                 </Link>
