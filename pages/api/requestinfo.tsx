@@ -13,7 +13,7 @@ const transporter = nodemailer.createTransport({
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method === 'POST') {
-    const { email } = req.body;
+    const { email, programa } = req.body;
 
     try {
       
@@ -21,7 +21,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         from: process.env.EMAIL_USER,
         to: 'tikybenitez@gmail.com',
         subject: 'Solicitante de Información',
-        text: `Solicitante de Información: ${email}`
+        text: `Solicitante de Información: ${email}\nPrograma: ${programa}`
       });
 
       res.status(200).json({ message: 'Correo enviado correctamente' });

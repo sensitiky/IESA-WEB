@@ -4,10 +4,10 @@ import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import Footer from "@/app/componentes/footer";
 import Header from "@/app/componentes/header";
-import Link from "next/link";
 
 const Tecjuridica = () => {
   const [email, setEmail] = useState('');
+  const programa = 'Tecnicatura Superior en Gestión Jurídica generalista.';
 
   const handleEmailChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setEmail(event.target.value);
@@ -22,7 +22,7 @@ const Tecjuridica = () => {
         headers: {
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify({ email })
+        body: JSON.stringify({ email, programa })
       });
 
       if (response.ok) {
@@ -52,7 +52,7 @@ const Tecjuridica = () => {
             <div className="grid gap-4">
               <div className="grid gap-2">
                 <h2 className="text-black text-3xl font-bold tracking-tight">
-                  Tecnicatura Superior en Gestión Jurídica generalista
+                  {programa}
                 </h2>
                 <p className="text-gray-500 dark:text-gray-400">
                   Duración: 3 años
@@ -113,10 +113,7 @@ const Tecjuridica = () => {
                 onChange={handleEmailChange}
               />
               <Button type="submit" className="relative group bg-customColor-iesa hover:bg-slate-500">
-                <Link className="relative group" href="">
                 Solicitar Información{" "}
-                <span className="absolute bottom-[-2px] left-0 w-full h-[2px] bg-white scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
-              </Link>
               </Button>
             </form>
             <p className="text-xs text-gray-500 dark:text-gray-400">
