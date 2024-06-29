@@ -260,26 +260,26 @@ export default function Component() {
                     </Button>
                   </div>
                 </div>
-                <div className="grid grid-cols-1 lg:grid-cols-1 gap-4 lg:gap-8 w-full lg:w-auto">
-                  <div className="bg-customColor-iesa text-white p-6 rounded-lg shadow-lg transition-all duration-300 hover:scale-105">
+                <div className="grid grid-cols-1 lg:grid-cols-1 gap-4 lg:gap-8 w-full lg:w-full">
+                  <div className="bg-customColor-iesa text-white p-6 rounded-lg shadow-lg">
                     <h3 className="text-xl lg:text-2xl font-bold mb-4 ">
                       Misión
                     </h3>
                     <p>Formar líderes</p>
                   </div>
-                  <div className="bg-customColor-iesa text-white p-6 rounded-lg shadow-lg transition-all duration-300 hover:scale-105">
+                  <div className="bg-customColor-iesa text-white p-6 rounded-lg shadow-lg">
                     <h3 className="text-xl lg:text-2xl font-bold mb-4">
                       Valores
                     </h3>
                     <p>Excelencia y ética</p>
                   </div>
-                  <div className="bg-customColor-iesa text-white p-6 rounded-lg shadow-lg transition-all duration-300 hover:scale-105">
+                  <div className="bg-customColor-iesa text-white p-6 rounded-lg shadow-lg">
                     <h3 className="text-xl lg:text-2xl font-bold mb-4">
                       Diversidad
                     </h3>
                     <p>Comunidad inclusiva</p>
                   </div>
-                  <div className="bg-customColor-iesa text-white p-6 rounded-lg shadow-lg transition-all duration-300 hover:scale-105">
+                  <div className="bg-customColor-iesa text-white p-6 rounded-lg shadow-lg">
                     <h3 className="text-xl lg:text-2xl font-bold mb-4">
                       Innovación
                     </h3>
