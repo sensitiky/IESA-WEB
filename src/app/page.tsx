@@ -11,7 +11,7 @@ import { JSX, SVGProps } from "react";
 import CookieNotice from "./componentes/cookies";
 import Footer from "./componentes/footer";
 import Header from "./componentes/header";
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function Component() {
   return (
@@ -121,7 +121,7 @@ export default function Component() {
                     Tecnicaturas Superiores
                   </h3>
                   <p className="text-gray-600">
-                    Explora nuestras innovadoras Tecnicaturas Superiores y
+                    Investiga nuestras innovadoras Tecnicaturas Superiores y
                     prepárate para un futuro prometedor en diferentes campos.
                   </p>
                 </CardContent>
@@ -143,7 +143,7 @@ export default function Component() {
                 <CardContent>
                   <h3 className="text-xl font-bold mb-2">Cursos</h3>
                   <p className="text-gray-600">
-                    Descubre nuestra amplia variedad de cursos especializados y
+                    Conoce nuestra amplia variedad de cursos especializados y
                     abre las puertas a nuevas oportunidades en tu carrera
                     profesional.
                   </p>
