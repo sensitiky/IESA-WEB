@@ -260,7 +260,7 @@ export default function Component() {
                     </Button>
                   </div>
                 </div>
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 w-full lg:w-auto">
+                <div className="grid grid-cols-1 lg:grid-cols-1 gap-4 lg:gap-8 w-full lg:w-auto">
                   <div className="bg-customColor-iesa text-white p-6 rounded-lg shadow-lg transition-all duration-300 hover:scale-105">
                     <h3 className="text-xl lg:text-2xl font-bold mb-4 ">
                       Misión
