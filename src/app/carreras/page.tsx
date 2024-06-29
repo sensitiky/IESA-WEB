@@ -279,7 +279,7 @@ export default function Component() {
                     </div>
                     <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                       <Image
-                        src="/estetica.jpg"
+                        src="/estetica prof.jpeg"
                         width={500}
                         height={500}
                         alt="Estética Profesional"
