@@ -189,7 +189,7 @@ export default function Formulario() {
         </Sheet>
       </header>
       <div className="space-y-2 text-center">
-        <h1 className="text-4xl font-bold">Inscripción Universitaria</h1>
+        <h1 className="text-4xl font-bold">Inscripción Superior</h1>
         <p className="text-gray-500 dark:text-gray-400">
           Complete el siguiente formulario para iniciar su proceso de
           pre-inscripción.
