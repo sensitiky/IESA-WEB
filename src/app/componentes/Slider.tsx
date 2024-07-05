@@ -30,7 +30,7 @@ const Carousel = () => {
   return (
     <div ref={ref} className="relative w-full overflow-x-hidden">
       <div
-        className="lg:max-h-[500px] flex transition-transform duration-500 ease-in-out overflow-hidden whitespace-nowrap"
+        className="lg:max-h-[500px] md:max-h-[500px] flex transition-transform duration-500 ease-in-out overflow-hidden whitespace-nowrap"
         style={{ transform: `translateX(-${activeIndex * 100}%)` }}
       >
         {images.map((image, index) => (
