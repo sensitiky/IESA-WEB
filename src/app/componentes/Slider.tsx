@@ -3,7 +3,7 @@ import Image from "next/image";
 import React, { JSX, SVGProps, useState, useEffect } from "react";
 import { useSwipeable } from "react-swipeable";
 
-const images = ["/sistemas.jpg", "/contador2.jpg", "/estetica1.jpg", "/abogacia.jpg"];
+const images = ["/sistemas.jpg", "/contador2.jpg", "/estetica1.jpg", "/abogacia.jpg","/disenio.jpg"];
 
 const Carousel = () => {
   const { ref } = useSwipeable({
