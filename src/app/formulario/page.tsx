@@ -134,8 +134,7 @@ export default function Formulario() {
     <div className="mx-auto max-w-3xl space-y-8 mb-8">
       <header className="bg-white text-slate-500 py-4 px-6 md:px-12 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2" prefetch={false}>
-          <img src="/logo.jpeg" className="h-8 w-8" />
-          <span className="text-xl font-bold">IESA</span>
+          <Image src="/logofinal.png" alt="logo" width={100} height={100} />
         </Link>
         <nav className="hidden md:flex items-center gap-6">
           <Link

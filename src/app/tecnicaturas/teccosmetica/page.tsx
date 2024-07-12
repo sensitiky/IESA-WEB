@@ -72,8 +72,7 @@ const Teccosmetica = () => {
                   Perfil Profesional
                 </h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  El Técnico Superior en Cosmetología, cosmiatria y estetica
-                  profesional estará capacitado para sugerir y realizar
+                  Estará capacitado para sugerir y realizar
                   actividades de embellecimiento o mejoramiento del aspecto
                   externo, relacionadas con la conservación del estado normal de
                   la piel sana, atenuación de imperfecciones mediante recursos
@@ -85,8 +84,7 @@ const Teccosmetica = () => {
                   Requisitos de Ingreso
                 </h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Para ingresar a la carrera de Técnico Superior en Cosmetología, cosmiatria y
-                  Estética profesional se deberá presentar: Una carpeta colgante. Título de
+                  Se deberá presentar: Una carpeta colgante. Título de
                   Nivel Secundario, original y fotocopia. Tres fotos color 4 x
                   4. Fotocopia del DNI.
                 </p>
@@ -96,8 +94,7 @@ const Teccosmetica = () => {
                   Áreas de Trabajo
                 </h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Los técnicos superiores en Cosmetología, Cosmiatría y Estética
-                  Profesional están preparados para trabajar en diversas áreas
+                  Están preparados para trabajar en diversas áreas
                   especializadas:<br/> Cosmetología, Cosmiatría, Estética
                   Profesional, Spa y Bienestar: Gestión de centros de spa,
                   ofreciendo servicios de relajación, terapias y tratamientos

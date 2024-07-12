@@ -6,44 +6,40 @@ import Footer from "@/app/componentes/footer";
 import Header from "@/app/componentes/header";
 
 const Tecgrafico = () => {
-  const [email, setEmail] = useState('');
-  const programa = 'Tecnicatura Superior en Diseño gráfico digital.';
+  const [email, setEmail] = useState("");
+  const programa = "Tecnicatura Superior en Diseño gráfico digital.";
 
   const handleEmailChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setEmail(event.target.value);
   };
 
-
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
-
     try {
-      const response = await fetch('/api/requestinfo', {
-        method: 'POST',
+      const response = await fetch("/api/requestinfo", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json'
+          "Content-Type": "application/json",
         },
-        body: JSON.stringify({ email, programa })
+        body: JSON.stringify({ email, programa }),
       });
 
-
       if (response.ok) {
-        alert('Correo enviado correctamente');
-        setEmail('');
+        alert("Correo enviado correctamente");
+        setEmail("");
       } else {
-        alert('Hubo un error al enviar el correo');
+        alert("Hubo un error al enviar el correo");
       }
     } catch (error) {
-      console.error('Error al enviar el correo:', error);
-      alert('Hubo un error al enviar el correo');
+      console.error("Error al enviar el correo:", error);
+      alert("Hubo un error al enviar el correo");
     }
   };
 
-
   return (
     <div>
-     <Header/>
+      <Header />
       <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
         <div className="container grid gap-8 px-4 md:px-6">
           <div className="grid md:grid-cols-2 gap-8 items-center">
@@ -71,11 +67,11 @@ const Tecgrafico = () => {
                   Perfil Profesional
                 </h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  El Técnico Superior en Diseño gráfico digital podrá generar
-                  soluciones de diseño en sus diferentes áreas de aplicación y
-                  Crear piezas de comunicación multimedia. Podrá trabajar para
-                  empresas privadas, para agencias de diseño y/o comunicación o
-                  desarrollar la actividad como profesional independiente.
+                  Podrá generar soluciones de diseño en sus diferentes áreas de
+                  aplicación y Crear piezas de comunicación multimedia. Podrá
+                  trabajar para empresas privadas, para agencias de diseño y/o
+                  comunicación o desarrollar la actividad como profesional
+                  independiente.
                 </p>
               </div>
               <div className="grid gap-2">
@@ -83,10 +79,9 @@ const Tecgrafico = () => {
                   Requisitos de Ingreso
                 </h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Para ingresar a la carrera de Técnico Superior en Diseño
-                  gráfico digital se deberá presentar: Una carpeta colgante.
-                  Título de Nivel Secundario, original y fotocopia. Tres fotos
-                  color 4 x 4. Fotocopia del DNI.
+                  Se deberá presentar: Una carpeta colgante. Título de Nivel
+                  Secundario, original y fotocopia. Tres fotos color 4 x 4.
+                  Fotocopia del DNI.
                 </p>
               </div>
               <div className="grid gap-2">
@@ -94,8 +89,7 @@ const Tecgrafico = () => {
                   Áreas de Trabajo
                 </h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Los técnicos superiores en Diseño Gráfico Digital pueden
-                  trabajar en diversas áreas especializadas:
+                  Pueden trabajar en diversas áreas especializadas:
                   <br />
                   Diseño Gráfico, Diseño Web, Animación y Multimedia, Publicidad
                   y Marketing, Diseño Editorial, Branding y Packaging, Arte y
@@ -104,7 +98,6 @@ const Tecgrafico = () => {
               </div>
             </div>
           </div>
-
 
           <div className="mx-auto w-full max-w-sm space-y-2">
             <form className="flex space-x-2" onSubmit={handleSubmit}>
@@ -115,24 +108,22 @@ const Tecgrafico = () => {
                 value={email}
                 onChange={handleEmailChange}
               />
-              <Button type="submit" className="relative group bg-customColor-iesa hover:bg-slate-500">
+              <Button
+                type="submit"
+                className="relative group bg-customColor-iesa hover:bg-slate-500"
+              >
                 Solicitar Información{" "}
               </Button>
-              
             </form>
-            <p className="text-xs text-gray-500 dark:text-gray-400">
-              Envía tu información para recibir más detalles sobre la carrera de Técnico Superior en Diseño gráfico digital.
+            <p className="text-xs text-gray-500 dark:text-gray-400 text-center">
+              Envía tu información para recibir más detalles sobre la carrera de
+              Técnico Superior en Diseño gráfico digital.
             </p>
           </div>
-
-
         </div>
       </section>
-      <Footer/>
+      <Footer />
     </div>
   );
-}
+};
 export default Tecgrafico;
-
-
-

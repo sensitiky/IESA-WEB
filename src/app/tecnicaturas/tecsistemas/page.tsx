@@ -6,8 +6,8 @@ import Footer from "@/app/componentes/footer";
 import Header from "@/app/componentes/header";
 
 const Tecsistemas = () => {
-  const [email, setEmail] = useState('');
-    const programa = 'Tecnicatura Superior en Análisis de Sistemas.';
+  const [email, setEmail] = useState("");
+  const programa = "Tecnicatura Superior en Análisis de Sistemas.";
 
   const handleEmailChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setEmail(event.target.value);
@@ -17,23 +17,23 @@ const Tecsistemas = () => {
     event.preventDefault();
 
     try {
-      const response = await fetch('/api/requestinfo', {
-        method: 'POST',
+      const response = await fetch("/api/requestinfo", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json'
+          "Content-Type": "application/json",
         },
-        body: JSON.stringify({ email, programa })
+        body: JSON.stringify({ email, programa }),
       });
 
       if (response.ok) {
-        alert('Correo enviado correctamente');
-        setEmail('');
+        alert("Correo enviado correctamente");
+        setEmail("");
       } else {
-        alert('Hubo un error al enviar el correo');
+        alert("Hubo un error al enviar el correo");
       }
     } catch (error) {
-      console.error('Error al enviar el correo:', error);
-      alert('Hubo un error al enviar el correo');
+      console.error("Error al enviar el correo:", error);
+      alert("Hubo un error al enviar el correo");
     }
   };
 
@@ -67,13 +67,12 @@ const Tecsistemas = () => {
                   Perfil Profesional
                 </h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Los técnicos superiores en Analista de Sistemas estarán
-                  capacitados para diagnosticar necesidades de información de
-                  los usuarios y diseñar nuevos sistemas o modificar los
-                  existentes. Podrá integrarse con éxito a equipos de trabajo
-                  dedicados a los sistemas informáticos o al área de sistemas de
-                  cualquier empresa, podrá también desarrollarlo como autónomo
-                  de manera remota y/o presencial.
+                  Estarán capacitados para diagnosticar necesidades de
+                  información de los usuarios y diseñar nuevos sistemas o
+                  modificar los existentes. Podrá integrarse con éxito a equipos
+                  de trabajo dedicados a los sistemas informáticos o al área de
+                  sistemas de cualquier empresa, podrá también desarrollarlo
+                  como autónomo de manera remota y/o presencial.
                 </p>
               </div>
               <div className="grid gap-2">
@@ -81,10 +80,9 @@ const Tecsistemas = () => {
                   Requisitos de Ingreso
                 </h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Para ingresar a la carrera de Técnico Superior en Análisis de
-                  Sistemas se deberá presentar una carpeta colgante. Título de
-                  Nivel Secundario, original y fotocopia. Tres fotos color 4 x
-                  4. Fotocopia del DNI.
+                  Se deberá presentar una carpeta colgante. Título de Nivel
+                  Secundario, original y fotocopia. Tres fotos color 4 x 4.
+                  Fotocopia del DNI.
                 </p>
               </div>
               <div className="grid gap-2">
@@ -92,8 +90,7 @@ const Tecsistemas = () => {
                   Áreas de Trabajo
                 </h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Los técnicos superiores en Análisis de Sistemas pueden
-                  desempeñarse en diversas áreas laborales, tales como:
+                  Pueden desempeñarse en diversas áreas laborales, tales como:
                   <br />
                   Desarrollo de Software, Administración de Redes, Soporte
                   Técnico, Análisis de Datos, Consultoría Tecnológica,
@@ -112,21 +109,23 @@ const Tecsistemas = () => {
                 value={email}
                 onChange={handleEmailChange}
               />
-              <Button type="submit" className="relative group bg-customColor-iesa hover:bg-slate-500">
+              <Button
+                type="submit"
+                className="relative group bg-customColor-iesa hover:bg-slate-500"
+              >
                 Solicitar Información{" "}
-                
               </Button>
             </form>
-            <p className="text-xs text-gray-500 dark:text-gray-400">
-              Envía tu información para recibir más detalles sobre la carrera de Técnico Superior en Analista de Sistemas.
+            <p className="text-xs text-gray-500 dark:text-gray-400 text-center">
+              Envía tu información para recibir más detalles sobre la carrera de
+              Técnico Superior en Analista de Sistemas.
             </p>
           </div>
-          
         </div>
       </section>
       <Footer />
     </div>
   );
-}
+};
 
 export default Tecsistemas;

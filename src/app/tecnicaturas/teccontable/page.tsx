@@ -67,8 +67,7 @@ const Teccontable = () => {
                   Perfil Profesional
                 </h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  El Técnico Superior en Impositiva, previsional y contable
-                  estará capacitado para desempeñarse dentro de empresas
+                  Estará capacitado para desempeñarse dentro de empresas
                   comerciales, agrarias, industriales, entidades bancarias,
                   estudios jurídicos, contables, diferentes organismos y
                   asociaciones, como también trabajar de forma independiente.
@@ -79,8 +78,7 @@ const Teccontable = () => {
                   Requisitos de Ingreso
                 </h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Para ingresar a la carrera de Técnico Superior en Impositiva, previsional y
-                  contable, se deberá presentar: Una carpeta colgante. Título de
+                  Se deberá presentar: Una carpeta colgante. Título de
                   Nivel Secundario, original y fotocopia. Tres fotos color 4 x
                   4. Fotocopia del DNI.
                 </p>
@@ -89,9 +87,8 @@ const Teccontable = () => {
                 <h3 className="text-black text-xl font-semibold">
                   Áreas de Trabajo
                 </h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  Los técnicos superiores en Impositiva, Previsional y Contable
-                  están capacitados para desempeñarse en diversas áreas
+                <p className="text-gray-500 dark:text-gray-400">                 
+                  Están capacitados para desempeñarse en diversas áreas
                   especializadas:<br/> Contabilidad, Impuestos, Seguridad Social,
                   Auditoría, Consultoría Empresarial, Planificación Financiera.
                 </p>
@@ -112,7 +109,7 @@ const Teccontable = () => {
                 Solicitar Información{" "}
               </Button>
             </form>
-            <p className="text-xs text-gray-500 dark:text-gray-400">
+            <p className="text-xs text-gray-500 dark:text-gray-400 text-center">
               Envía tu información para recibir más detalles sobre la carrera de Técnico Superior en Cosmetología, cosmiatria y
                   estética profesional.
             </p>

@@ -66,7 +66,7 @@ const Tecjuridica = () => {
                   Perfil Profesional
                 </h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  El Tecnico Superior en Gestion Juridica generalista podra
+                  Podra
                   asumir roles como:
                   <br /> Asesor, investigador, o mediador de conflictos de orden
                   jurídico. En el caso de nuestra institución se eligió un
@@ -80,8 +80,7 @@ const Tecjuridica = () => {
                   Requisitos de Ingreso
                 </h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Para ingresar a la carrera de Técnico Superior en Gestión
-                  Jurídica generalista se deberá presentar: Una carpeta
+                  Se deberá presentar: Una carpeta
                   colgante. Título de Nivel Secundario, original y fotocopia.
                   Tres fotos color 4 x 4. Fotocopia del DNI.
                 </p>
@@ -91,8 +90,7 @@ const Tecjuridica = () => {
                   Áreas de Trabajo
                 </h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Los graduados de la Tecnicatura Superior en Gestión Jurídica
-                  generalista están preparados para desempeñarse en diversas
+                  Están preparados para desempeñarse en diversas
                   áreas del sector legal, incluyendo:
                   <br />
                   Asesoría Legal, Gestión de Documentación, Administración
@@ -116,7 +114,7 @@ const Tecjuridica = () => {
                 Solicitar Información{" "}
               </Button>
             </form>
-            <p className="text-xs text-gray-500 dark:text-gray-400">
+            <p className="text-xs text-gray-500 dark:text-gray-400 text-center">
               Envía tu información para recibir más detalles sobre la carrera de Técnico Superior en Gestión Jurídica Generalista.
             </p>
           </div>

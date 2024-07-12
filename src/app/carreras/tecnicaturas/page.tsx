@@ -13,7 +13,7 @@ export default function Component() {
       <Carousel />
       <div className="bg-gray-100 w-full py-12 md:py-24 lg:py-32">
         <div className="container px-4 md:px-6">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-5 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 gap-6">
             <div className="group">
               <div className="grid gap-4 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full flex flex-col">
                 <Image
@@ -111,7 +111,7 @@ export default function Component() {
                 />
                 <Link href="/tecnicaturas/teccontable" prefetch={false}>
                   <h3 className="mb-2 text-lg font-semibold group-hover:text-primary-500 dark:group-hover:text-primary-400">
-                    Tecnicatura Superior en Gestión Impositiva, Previsional y
+                    Tecnicatura Superior Gestión Impositiva, Previsional y
                     Contable
                   </h3>
                   <p className="text-sm text-gray-500 dark:text-gray-400">

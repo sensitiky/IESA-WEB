@@ -168,7 +168,7 @@ export default function Component() {
               </div>
 
               <div className="w-full max-w-full">
-                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-center">
+                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
                   Descubre tu futura profesión.
                 </h2>
                 <p className="text-lg md:text-xl lg:text-2xl mb-8">
@@ -189,13 +189,13 @@ export default function Component() {
             </div>
           </div>
         </section>
-        {/*Seccion preinscripcion*/}
-        <section id="admissions" className="py-12 md:py-20 lg:py-28">
+        {/*Seccion contacto*/}
+        <section id="contacto" className="py-12 md:py-20 lg:py-28">
           <div className="container px-4 md:px-6 lg:px-8">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-                  Preinscripción
+                ¡Contáctanos!
                 </h2>
                 <p className="text-lg md:text-xl lg:text-2xl mb-8">
                   Infórmate sobre nuestro proceso de preinscripción y cómo
@@ -204,11 +204,11 @@ export default function Component() {
                 <div className="flex gap-4">
                   <Button className="bg-customColor-iesa hover:bg-slate-500">
                     <Link
-                      href="/formulario"
+                      href="/contacto"
                       className="relative group"
                       prefetch={false}
                     >
-                      Solicitar ahora
+                      Contactarse ahora
                       <span className="absolute bottom-[-2px] left-0 w-full h-[2px] bg-white scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
                     </Link>
                   </Button>

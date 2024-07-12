@@ -3,7 +3,7 @@ import Image from "next/image";
 import React, { JSX, SVGProps, useState, useEffect } from "react";
 import { useSwipeable } from "react-swipeable";
 
-const images = ["/sistemas.jpg", "/contador2.jpg", "/estetica1.jpg"];
+const images = ["/sistemas.jpg", "/contador2.jpg", "/estetica1.jpg", "/abogacia.jpg"];
 
 const Carousel = () => {
   const { ref } = useSwipeable({
@@ -30,28 +30,29 @@ const Carousel = () => {
   return (
     <div ref={ref} className="relative w-full overflow-x-hidden">
       <div
-        className="lg:max-h-[500px] md:max-h-[250px] flex transition-transform duration-500 ease-in-out overflow-hidden whitespace-nowrap"
+        className="flex transition-transform duration-500 ease-in-out overflow-hidden"
         style={{ transform: `translateX(-${activeIndex * 100}%)` }}
       >
         {images.map((image, index) => (
-          <Image
-            key={index}
-            src={image}
-            alt={`Slide ${index + 1}`}
-            className="w-full h-auto object-cover"
-            width={5000}
-            height={5000}
-          />
+          <div key={index} className="w-full h-[500px] relative flex-shrink-0">
+            <Image
+              src={image}
+              alt={`Slide ${index + 1}`}
+              layout="fill"
+              objectFit="cover"
+              className="object-cover"
+            />
+          </div>
         ))}
       </div>
       <div className="absolute inset-0 flex items-center justify-between px-4 sm:px-6">
         <ChevronLeftIcon
           onClick={() => updateIndex(activeIndex - 1)}
-          className="text-white hover:bg-black/20 cursor-pointer focus-visible:ring-2 focus-visible:ring-white"
+          className="text-white hover:bg-black/20 cursor-pointer focus-visible:ring-2 focus-visible:ring-white z-50"
         />
         <ChevronRightIcon
           onClick={() => updateIndex(activeIndex + 1)}
-          className="text-white hover:bg-black/20 cursor-pointer focus-visible:ring-2 focus-visible:ring-white"
+          className="text-white hover:bg-black/20 cursor-pointer focus-visible:ring-2 focus-visible:ring-white z-50"
         />
       </div>
       <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-center">

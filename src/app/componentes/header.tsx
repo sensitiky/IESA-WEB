@@ -1,4 +1,3 @@
-"use client";
 import Link from "next/link";
 import Image from "next/image";
 import { FC, JSX, SVGProps, useState, useEffect, useRef } from "react";
@@ -84,75 +83,32 @@ const Header: FC = () => {
         </div>
       </Link>
       <nav className="hidden md:flex items-center gap-6">
-        <Link
-          href="/"
-          className="relative group text-customColor-iesa hover:text-black transition-colors"
-          prefetch={false}
-        >
-          Inicio
-          <span className="absolute bottom-[-2px] left-0 w-full h-[2px] bg-black scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
-        </Link>
-        <Link
-          href="/instituto"
-          className="relative group text-customColor-iesa hover:text-black transition-colors"
-          prefetch={false}
-        >
-          Institucional
-          <span className="absolute bottom-[-2px] left-0 w-full h-[2px] bg-black scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
-        </Link>
+        <NavLink href="/" label="Inicio" />
+        <NavLink href="/instituto" label="Institucional" />
         <div
           className="relative group"
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
           ref={dropdownRef}
         >
-          <Link
-            href="/carreras"
-            className="relative text-customColor-iesa hover:text-black transition-colors"
-            prefetch={false}
-          >
-            Oferta Académica
-            <span className="absolute bottom-[-2px] left-0 w-full h-[2px] bg-black scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
-          </Link>
+          <NavLink href="" label="Oferta Académica" />
           {isDropdownOpen && (
             <div className="absolute left-0 top-full mt-2 bg-white shadow-lg z-50">
               <ul className="flex flex-col">
-                <li>
-                  <Link
-                    href="/carreras/tecnicaturas"
-                    className="block px-4 py-2 text-customColor-iesa hover:bg-gray-200"
-                  >
-                    Tecnicaturas Superiores
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/carreras/formaciones"
-                    className="block px-4 py-2 text-customColor-iesa hover:bg-gray-200"
-                  >
-                    Formaciones Profesionales
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/carreras/cursos"
-                    className="block px-4 py-2 text-customColor-iesa hover:bg-gray-200"
-                  >
-                    Cursos
-                  </Link>
-                </li>
+                <DropdownLink
+                  href="/carreras/tecnicaturas"
+                  label="Tecnicaturas Superiores"
+                />
+                <DropdownLink
+                  href="/carreras/formaciones"
+                  label="Formaciones Profesionales"
+                />
+                <DropdownLink href="/carreras/cursos" label="Cursos" />
               </ul>
             </div>
           )}
         </div>
-        <Link
-          href="/contacto"
-          className="relative group text-customColor-iesa hover:text-black transition-colors"
-          prefetch={false}
-        >
-          Contacto
-          <span className="absolute bottom-[-2px] left-0 w-full h-[2px] bg-black scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
-        </Link>
+        <NavLink href="/contacto" label="Contacto" />
       </nav>
       <Button className="relative group bg-customColor-iesa hover:bg-slate-500 hidden md:inline-flex">
         <Link className="relative group text-white" href="/formulario">
@@ -169,68 +125,32 @@ const Header: FC = () => {
         </SheetTrigger>
         <SheetContent side="right">
           <div className="grid gap-4 p-6">
-            <Link
-              href="/"
-              className="text-lg font-medium hover:underline"
-              prefetch={false}
-            >
-              Inicio
-            </Link>
-            <Link
-              href="/instituto"
-              className="text-lg font-medium hover:underline"
-              prefetch={false}
-            >
-              Institucional
-            </Link>
+            <NavLink href="/" label="Inicio" />
+            <NavLink href="/instituto" label="Institucional" />
             <div
               className="relative group"
               onMouseEnter={handleSheetMouseEnter}
               onMouseLeave={handleSheetMouseLeave}
               ref={sheetDropdownRef}
             >
-              
-                Oferta Académica
-                <span className="absolute bottom-[-2px] left-0 w-full h-[2px] bg-black scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
-              
+              <NavLink href="" label="Oferta Académica" />
               {isSheetDropdownOpen && (
                 <div className="absolute left-0 top-full mt-2 bg-white shadow-lg z-50">
                   <ul className="flex flex-col">
-                    <li>
-                      <Link
-                        href="/carreras/tecnicaturas"
-                        className="block px-4 py-2 text-customColor-iesa hover:bg-gray-200"
-                      >
-                        Tecnicaturas Superiores
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/carreras/formaciones"
-                        className="block px-4 py-2 text-customColor-iesa hover:bg-gray-200"
-                      >
-                        Formaciones Profesionales
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/carreras/cursos"
-                        className="block px-4 py-2 text-customColor-iesa hover:bg-gray-200"
-                      >
-                        Cursos
-                      </Link>
-                    </li>
+                    <DropdownLink
+                      href="/carreras/tecnicaturas"
+                      label="Tecnicaturas Superiores"
+                    />
+                    <DropdownLink
+                      href="/carreras/formaciones"
+                      label="Formaciones Profesionales"
+                    />
+                    <DropdownLink href="/carreras/cursos" label="Cursos" />
                   </ul>
                 </div>
               )}
             </div>
-            <Link
-              href="/contacto"
-              className="text-lg font-medium hover:underline"
-              prefetch={false}
-            >
-              Contacto
-            </Link>
+            <NavLink href="/contacto" label="Contacto" />
             <Link href="/formulario">
               <Button className="w-full bg-customColor-iesa hover:bg-gray-500">
                 Pre-Inscribirse
@@ -242,6 +162,28 @@ const Header: FC = () => {
     </header>
   );
 };
+
+const NavLink: FC<{ href: string; label: string }> = ({ href, label }) => (
+  <Link
+    href={href}
+    className="relative group text-black hover:text-black transition-colors"
+    prefetch={false}
+  >
+    {label}
+    <span className="absolute bottom-[-2px] left-0 w-full h-[2px] bg-black scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
+  </Link>
+);
+
+const DropdownLink: FC<{ href: string; label: string }> = ({ href, label }) => (
+  <li>
+    <Link
+      href={href}
+      className="block px-4 py-2 text-black hover:bg-gray-200"
+    >
+      {label}
+    </Link>
+  </li>
+);
 
 export default Header;
 
