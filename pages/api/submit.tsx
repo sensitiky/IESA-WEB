@@ -28,7 +28,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
       const mailOptions: SendMailOptions = {
         from: process.env.EMAIL,
-        to: "tikybenitez@gmail.com",
+        to: "iesa-educativo@hotmail.com",
         subject: "Nuevo formulario de inscripción",
         text: `Se ha enviado un nuevo formulario.\nNombre: ${formData.firstName} ${formData.lastName}\nEmail: ${formData.email}\nTeléfono: ${formData.phone}\nPrograma: ${formData.program}\nOrientación: ${formData.orientation}`,
         attachments: [

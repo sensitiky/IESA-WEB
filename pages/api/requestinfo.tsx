@@ -19,7 +19,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       
       await transporter.sendMail({
         from: process.env.EMAIL_USER,
-        to: 'tikybenitez@gmail.com',
+        to: 'iesa-educativo@hotmail.com',
         subject: 'Solicitante de Información',
         text: `Solicitante de Información: ${email}\nPrograma: ${programa}`
       });
