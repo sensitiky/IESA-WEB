@@ -11,11 +11,11 @@ const Footer: React.FC = () => {
         </div>
         <nav className="flex items-center gap-6">
           <Link
-            href="https://www.instagram.com/sensitiky/"
+            href="mailto:mariomcorrea3@gmail.com"
             className="text-gray-300 hover:text-white transition-colors"
             prefetch={false}
           >
-            &copy;Mario Correa
+            &copy;Mario C.
           </Link>
           <Link
             href="https://www.privacypolicyonline.com/live.php?token=aOqyqx1o7Pjje5M3uHdXirDINKHxfLpQ"

@@ -46,10 +46,10 @@ export default function Instituto() {
         <Carousel />
         <div className="space-y-6">
           <div>
-            <h2 className="text-3xl font-bold text-center">
+            <h2 className="text-3xl font-bold">
               Instituto de Estudios Superiores Argentino
             </h2>
-            <p className="mt-2 text-gray-500 dark:text-gray-400 text-center">
+            <p className="mt-2 text-gray-500 dark:text-gray-400">
               El IESA es un establecimiento terciario de enseñanza pública de gestión privada, fundado en 2003
               en Posadas, Misiones. Hemos dedicado años a brindar formación
               profesional exitosa a lo largo de nuestra historia. Nuestro

@@ -47,11 +47,11 @@ const Carousel3 = () => {
       <div className="absolute inset-0 flex items-center justify-between px-4 sm:px-6">
         <ChevronLeftIcon
           onClick={() => updateIndex(activeIndex - 1)}
-          className="text-white hover:bg-black/20 cursor-pointer focus-visible:ring-2 focus-visible:ring-white"
+          className="text-white hover:bg-black/20 cursor-pointer focus-visible:ring-2 focus-visible:ring-white z-50"
         />
         <ChevronRightIcon
           onClick={() => updateIndex(activeIndex + 1)}
-          className="text-white hover:bg-black/20 cursor-pointer focus-visible:ring-2 focus-visible:ring-white"
+          className="text-white hover:bg-black/20 cursor-pointer focus-visible:ring-2 focus-visible:ring-white z-50"
         />
       </div>
       <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-center">
