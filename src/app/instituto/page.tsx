@@ -49,8 +49,8 @@ export default function Instituto() {
             <h2 className="text-3xl font-bold">
               Instituto de Estudios Superiores Argentino
             </h2>
-            <p className="mt-2 text-gray-500 dark:text-gray-400">
-              El IESA es un instituto privado de gestión pública fundado en 2003
+            <p className="mt-2 text-gray-500 dark:text-gray-400 text-center">
+              El IESA es un instituto de educación pública de gestión privada, fundado en 2003
               en Posadas, Misiones. Hemos dedicado años a brindar formación
               profesional exitosa a lo largo de nuestra historia. Nuestro
               compromiso es con la excelencia educativa y la formación integral
