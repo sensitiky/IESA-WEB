@@ -60,7 +60,7 @@ const Carousel3 = () => {
             Cursos
           </h2>
           <p className="text-lg md:text-xl lg:text-2xl mb-8">
-            Explora nuestras diversas opciones de tecnicaturas y encuentra la
+            Explora nuestras diversas opciones de cursos y encuentra el
             que mejor se adapte a tus intereses y objetivos.
           </p>
         </div>
