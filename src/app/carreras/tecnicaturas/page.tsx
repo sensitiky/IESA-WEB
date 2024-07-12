@@ -1,30 +1,18 @@
 "use client";
 import Link from "next/link";
-import Carousel from "../componentes/Slider";
+import Carousel from "@/app/componentes/Slider";
 import Footer from "@/app/componentes/footer";
 import Header from "@/app/componentes/header";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import SecondNav from "../componentes/secondnavbar";
 
 export default function Component() {
   return (
     <div>
       <Header />
-        <Carousel />
-        <SecondNav/>
+      <Carousel />
       <div className="bg-gray-100 w-full py-12 md:py-24 lg:py-32">
         <div className="container px-4 md:px-6">
-          <div id="tecnicaturas" className="mb-6 sm:mb-8 md:mb-10 lg:mb-12 xl:mb-14">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              Tecnicaturas Superiores
-            </h2>
-            <p className="max-w-[700px] text-gray-500 md:text-xl lg:text-base xl:text-xl dark:text-gray-400">
-              Explora nuestras diversas opciones de tecnicaturas y encuentra la
-              que mejor se adapte a tus intereses y objetivos.
-            </p>
-          </div>
-
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-5 gap-6">
             <div className="group">
               <div className="grid gap-4 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full flex flex-col">
@@ -135,8 +123,8 @@ export default function Component() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </div>{" "}
+      </div>{" "}
       <Footer />
     </div>
   );

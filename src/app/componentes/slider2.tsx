@@ -5,7 +5,7 @@ import { useSwipeable } from "react-swipeable";
 
 const images = ["/sistemas.jpg", "/contador2.jpg", "/estetica1.jpg"];
 
-const Carousel = () => {
+const Carousel2 = () => {
   const { ref } = useSwipeable({
     onSwipedLeft: () => updateIndex(activeIndex + 1),
     onSwipedRight: () => updateIndex(activeIndex - 1),
@@ -28,7 +28,7 @@ const Carousel = () => {
   }, [activeIndex]);
 
   return (
-    <div ref={ref} className="relative w-full overflow-x-hidden">
+    <div ref={ref} className="relative w-full overflow-x-hidden z-10">
       <div
         className="lg:max-h-[500px] md:max-h-[250px] flex transition-transform duration-500 ease-in-out overflow-hidden whitespace-nowrap"
         style={{ transform: `translateX(-${activeIndex * 100}%)` }}
@@ -57,11 +57,11 @@ const Carousel = () => {
       <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-center">
         <div className="text-white">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-            Tecnicaturas Superiores
+            Formaciones Profesionales
           </h2>
           <p className="text-lg md:text-xl lg:text-2xl mb-8">
-            Explora nuestras diversas opciones de tecnicaturas y encuentra la
-            que mejor se adapte a tus intereses y objetivos.
+            Explora nuestras opciones de formaciones y encuentra la que mejor se
+            adapte a tus objetivos profesionales.
           </p>
         </div>
       </div>
@@ -69,7 +69,7 @@ const Carousel = () => {
   );
 };
 
-export default Carousel;
+export default Carousel2;
 
 function ChevronLeftIcon(
   props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>

@@ -6,8 +6,8 @@ const Footer: React.FC = () => {
     <footer className="bg-customColor-iesa text-white py-6 md:py-8 lg:py-5">
       <div className="container px-4 md:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between">
         <div className="flex items-center gap-2 mb-4 md:mb-0">
-          <Image src="/logo.jpeg" alt="Logo IESA" className="h-8 w-8" width={32} height={32} />
-          <span className="text-xl font-bold">IESA</span>
+          <span></span>
+          <Image src="/Fundas.png" alt="Logo IESA" width={200} height={200} />
         </div>
         <nav className="flex items-center gap-6">
           <Link

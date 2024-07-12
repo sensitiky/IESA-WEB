@@ -19,87 +19,53 @@ export default function Component() {
       <CookieNotice />
       <Header />
       <main className="flex-1">
-        <section className="bg-gray-100 text-white py-24 md:py-32 lg:py-40">
-          <div className="container px-4 md:px-6 lg:px-8">
-            <div className="text-black grid md:grid-cols-2 gap-8 items-center">
-              <div>
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-                  Descubre tu futura profesión
-                </h1>
-                <p className="text-lg md:text-xl lg:text-2xl mb-8">
-                  Explora nuestros programas e inscríbete a una vibrante
-                  comunidad de estudiantes.
-                </p>
-                <div className="flex gap-4">
-                  <Button className="bg-customColor-iesa hover:bg-slate-500">
-                    <Link
-                      href="/contacto"
-                      className="relative group"
-                      prefetch={false}
-                    >
-                      Contáctanos{" "}
-                      <span className="absolute bottom-[-2px] left-0 w-full h-[2px] bg-white scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
-                    </Link>
-                  </Button>
-                  <Button className="text-black" variant="outline">
-                    <Link
-                      href="/instituto"
-                      className="relative group"
-                      prefetch={false}
-                    >
-                      Descubre más
-                      <span className="absolute bottom-[-2px] left-0 w-full h-[2px] bg-black scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
-                    </Link>
-                  </Button>
-                </div>
-              </div>
-              <div className="hidden md:block">
-                <Image
-                  src="/iesa3.jpeg"
-                  width="1000"
-                  height="600"
-                  alt="diversas"
-                  className="rounded-xl"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
-        <section id="about" className="py-12 md:py-20 lg:py-28">
-          <div className="container mx-auto px-4 md:px-6 lg:px-8">
-            <div className="grid md:grid-cols-2 gap-8 items-center">
-              <div className="w-full max-w-full">
-                <Image
-                  src="/iesa2.jpeg"
-                  width="600"
-                  height="400"
-                  alt="Logo"
-                  className="w-full h-auto rounded-xl"
-                />
-              </div>
-              <div className="w-full max-w-full">
-                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-                  Bienvenidos a IESA, el instituto de tu futura profesión.
-                </h2>
-                <p className="text-lg md:text-xl lg:text-2xl mb-8">
-                  Un Instituto innovador enfocado en prepararte para el ámbito
-                  profesional con programas prácticos, profesores dedicados y
-                  conexiones laborales.
-                </p>
-                <Link
-                  href="/instituto"
-                  className="relative group inline-flex items-center gap-2 text-primary-500 hover:text-primary-600 transition-colors"
-                  prefetch={false}
-                >
-                  Descubre más
-                  <ArrowRightIcon className="h-5 w-5 text-customColor-iesa" />
-                  <span className="absolute bottom-[-2px] left-0 w-full h-[2px] bg-customColor-iesa scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
-                </Link>
+        {/*Seccion Bienvenida*/}
+        <section
+          className="relative bg-no-repeat bg-fixed text-white py-24 md:py-32 lg:py-40"
+          style={{
+            backgroundImage: "url(/IESA.jpeg)",
+            backgroundPosition: "center 35%",
+            backgroundSize: "cover", 
+          }}
+        >
+          <div className="absolute inset-0 bg-black opacity-50"></div>
+          <div className="relative container mx-auto px-4 md:px-6 lg:px-8">
+            <div className="flex flex-col items-center text-center">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+                Bienvenidos a IESA <br /> el instituto de <br />
+                tu futura profesión.
+              </h1>
+              <p className="text-lg md:text-xl lg:text-2xl mb-8">
+                Explora nuestros programas e inscríbete a una vibrante comunidad
+                de estudiantes.
+              </p>
+              <div className="flex gap-4">
+                <Button className="bg-customColor-iesa hover:bg-slate-500">
+                  <Link
+                    href="/contacto"
+                    className="relative group"
+                    prefetch={false}
+                  >
+                    Contáctanos
+                    <span className="absolute bottom-[-2px] left-0 w-full h-[2px] bg-white scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
+                  </Link>
+                </Button>
+                <Button className="text-black" variant="outline">
+                  <Link
+                    href="/instituto"
+                    className="relative group"
+                    prefetch={false}
+                  >
+                    Descubre más
+                    <span className="absolute bottom-[-2px] left-0 w-full h-[2px] bg-black scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
+                  </Link>
+                </Button>
               </div>
             </div>
           </div>
         </section>
 
+        {/*Seccion Oferta academica*/}
         <section id="programs" className="bg-gray-100 py-12 md:py-20 lg:py-28">
           <div className="container px-4 md:px-6 lg:px-8">
             <div className="text-center mb-8 md:mb-12 lg:mb-16">
@@ -127,30 +93,7 @@ export default function Component() {
                 </CardContent>
                 <CardFooter>
                   <Link
-                    href="/carreras"
-                    className="relative group text-primary-500 hover:text-primary-600 transition-colors"
-                    prefetch={false}
-                  >
-                    Descubre más
-                    <span className="absolute bottom-[-2px] left-0 w-full h-[2px] bg-customColor-iesa scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
-                  </Link>
-                </CardFooter>
-              </Card>
-              <Card className="bg-white dark:bg-zinc-800 shadow-lg rounded-lg transition-all duration-300 hover:scale-105">
-                <CardHeader>
-                  <BookIcon className="h-8 w-8 text-primary-500" />
-                </CardHeader>
-                <CardContent>
-                  <h3 className="text-xl font-bold mb-2">Cursos</h3>
-                  <p className="text-gray-600">
-                    Conoce nuestra amplia variedad de cursos especializados y
-                    abre las puertas a nuevas oportunidades en tu carrera
-                    profesional.
-                  </p>
-                </CardContent>
-                <CardFooter>
-                  <Link
-                    href="/carreras"
+                    href="/carreras/tecnicaturas"
                     className="relative group text-primary-500 hover:text-primary-600 transition-colors"
                     prefetch={false}
                   >
@@ -175,7 +118,30 @@ export default function Component() {
                 </CardContent>
                 <CardFooter>
                   <Link
-                    href="/carreras"
+                    href="/carreras/formaciones"
+                    className="relative group text-primary-500 hover:text-primary-600 transition-colors"
+                    prefetch={false}
+                  >
+                    Descubre más
+                    <span className="absolute bottom-[-2px] left-0 w-full h-[2px] bg-customColor-iesa scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
+                  </Link>
+                </CardFooter>
+              </Card>
+              <Card className="bg-white dark:bg-zinc-800 shadow-lg rounded-lg transition-all duration-300 hover:scale-105">
+                <CardHeader>
+                  <BookIcon className="h-8 w-8 text-primary-500" />
+                </CardHeader>
+                <CardContent>
+                  <h3 className="text-xl font-bold mb-2">Cursos</h3>
+                  <p className="text-gray-600">
+                    Conoce nuestra amplia variedad de cursos especializados y
+                    abre las puertas a nuevas oportunidades en tu carrera
+                    profesional.
+                  </p>
+                </CardContent>
+                <CardFooter>
+                  <Link
+                    href="/carreras/cursos"
                     className="relative group text-primary-500 hover:text-primary-600 transition-colors"
                     prefetch={false}
                   >
@@ -187,11 +153,48 @@ export default function Component() {
             </div>
           </div>
         </section>
+        {/*Seccion sobre el instituto*/}
+        <section id="about" className="py-12 md:py-20 lg:py-28">
+          <div className="container mx-auto px-4 md:px-6 lg:px-8">
+            <div className="grid md:grid-cols-2 gap-8 items-center">
+              <div className="w-full max-w-full">
+                <Image
+                  src="/iesa2.jpeg"
+                  width="800"
+                  height="800"
+                  alt="Logo"
+                  className="flex rounded-xl"
+                />
+              </div>
+
+              <div className="w-full max-w-full">
+                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-center">
+                  Descubre tu futura profesión.
+                </h2>
+                <p className="text-lg md:text-xl lg:text-2xl mb-8">
+                  Un Instituto innovador enfocado en prepararte para el ámbito
+                  profesional con programas prácticos, profesores dedicados y
+                  conexiones laborales.
+                </p>
+                <Link
+                  href="/instituto"
+                  className="relative group inline-flex items-center gap-2 text-primary-500 hover:text-primary-600 transition-colors"
+                  prefetch={false}
+                >
+                  Descubre más
+                  <ArrowRightIcon className="h-5 w-5 text-customColor-iesa" />
+                  <span className="absolute bottom-[-2px] left-0 w-full h-[2px] bg-customColor-iesa scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/*Seccion preinscripcion*/}
         <section id="admissions" className="py-12 md:py-20 lg:py-28">
           <div className="container px-4 md:px-6 lg:px-8">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
-                <h2 className="relative group text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
                   Preinscripción
                 </h2>
                 <p className="text-lg md:text-xl lg:text-2xl mb-8">
@@ -211,81 +214,14 @@ export default function Component() {
                   </Button>
                 </div>
               </div>
-              <div className="hidden md:block">
+              <div className="hidden md:flex justify-center">
                 <Image
                   src="/iesa7.jpeg"
                   width="600"
                   height="400"
                   alt="inscripción"
-                  className="rounded-xl"
+                  className="rounded-xl object-cover"
                 />
-              </div>
-            </div>
-          </div>
-        </section>
-        <section id="mision" className="bg-gray-100 py-12 md:py-20 lg:py-28">
-          <div className="container mx-auto px-4 md:px-6 lg:px-8">
-            <div className="grid md:grid-cols-2 gap-8 items-center">
-              <div className="w-full max-w-full">
-                <Image
-                  src="/iesa5.jpeg"
-                  width="600"
-                  height="400"
-                  alt="misión y valores"
-                  className="w-full h-auto rounded-xl"
-                />
-              </div>
-              <div className="flex flex-col lg:flex-row items-center lg:items-start lg:space-x-10 mb-10 w-full">
-                <div className="text-black w-full lg:w-1/2 mb-10 lg:mb-0">
-                  <h2 className="text-2xl lg:text-4xl font-bold mb-6">
-                    Nuestra visión es hacer que el trabajo sea inspirador y
-                    gratificante.
-                  </h2>
-                  <p className="mb-8 text-lg sm:text-sm">
-                    El IESA es un instituto privado <br />
-                    de gestión pública fundado en 2003 en Posadas, Misiones.
-                    Hemos dedicado años a brindar formación profesional exitosa
-                    a lo largo de nuestra historia.
-                  </p>
-                  <div className="flex gap-4">
-                    <Button className="bg-customColor-iesa hover:bg-slate-500">
-                      <Link
-                        href="/instituto"
-                        className="relative group"
-                        prefetch={false}
-                      >
-                        Descubre más
-                        <span className="absolute bottom-[-2px] left-0 w-full h-[2px] bg-white scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
-                      </Link>
-                    </Button>
-                  </div>
-                </div>
-                <div className="grid grid-cols-1 lg:grid-cols-1 gap-4 lg:gap-8 w-full lg:w-full">
-                  <div className="bg-customColor-iesa text-white p-6 rounded-lg shadow-lg">
-                    <h3 className="text-xl lg:text-2xl font-bold mb-4 ">
-                      Misión
-                    </h3>
-                    <p>Formar líderes</p>
-                  </div>
-                  <div className="bg-customColor-iesa text-white p-6 rounded-lg shadow-lg">
-                    <h3 className="text-xl lg:text-2xl font-bold mb-4">
-                      Valores
-                    </h3>
-                    <p>Excelencia y ética</p>
-                  </div>
-                  <div className="bg-customColor-iesa text-white p-6 rounded-lg shadow-lg">
-                    <h3 className="text-xl lg:text-2xl font-bold mb-4">
-                      Diversidad
-                    </h3>
-                    <p>Comunidad inclusiva</p>
-                  </div>
-                  <div className="bg-customColor-iesa text-white p-6 rounded-lg shadow-lg">
-                    <h3 className="text-xl lg:text-2xl font-bold mb-4">
-                      Innovación
-                    </h3>
-                    <p>Vanguardia educativa</p>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

@@ -5,7 +5,7 @@ import { useSwipeable } from "react-swipeable";
 
 const images = ["/sistemas.jpg", "/contador2.jpg", "/estetica1.jpg"];
 
-const Carousel = () => {
+const Carousel3 = () => {
   const { ref } = useSwipeable({
     onSwipedLeft: () => updateIndex(activeIndex + 1),
     onSwipedRight: () => updateIndex(activeIndex - 1),
@@ -69,7 +69,7 @@ const Carousel = () => {
   );
 };
 
-export default Carousel;
+export default Carousel3;
 
 function ChevronLeftIcon(
   props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>
