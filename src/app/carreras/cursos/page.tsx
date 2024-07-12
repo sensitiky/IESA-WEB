@@ -144,10 +144,6 @@ export default function cursos() {
                   alt="Curso de PHP"
                   className="aspect-square object-cover rounded-lg"
                 />
-                <div className="flex-1">
-                  <h3 className="mb-2 text-lg font-semibold">Curso de </h3>
-                  <p className=" text-gray-500 dark:text-gray-400"></p>
-                </div>
                 <Accordion type="single" collapsible className="w-full mt-4">
                   <AccordionItem value="nombre">
                     <AccordionTrigger>Curso</AccordionTrigger>
@@ -263,10 +259,6 @@ export default function cursos() {
                   alt="Curso de Drenaje linfático"
                   className="aspect-square object-cover rounded-lg"
                 />
-                <div className="flex-1">
-                  <h3 className="mb-2 text-lg font-semibold">Curso de</h3>
-                  <p className="text-gray-500 dark:text-gray-400"></p>
-                </div>
                 <Accordion type="single" collapsible className="w-full mt-4">
                   <AccordionItem value="nombre">
                     <AccordionTrigger>Curso</AccordionTrigger>
