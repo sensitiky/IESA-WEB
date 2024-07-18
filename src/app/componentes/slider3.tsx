@@ -30,18 +30,19 @@ const Carousel3 = () => {
   return (
     <div ref={ref} className="relative w-full overflow-x-hidden">
       <div
-        className="lg:max-h-[500px] md:max-h-[250px] flex transition-transform duration-500 ease-in-out overflow-hidden whitespace-nowrap"
+        className="flex transition-transform duration-500 ease-in-out overflow-hidden"
         style={{ transform: `translateX(-${activeIndex * 100}%)` }}
       >
         {images.map((image, index) => (
-          <Image
-            key={index}
-            src={image}
-            alt={`Slide ${index + 1}`}
-            className="w-full h-auto object-cover"
-            width={5000}
-            height={5000}
-          />
+          <div key={index} className="w-full h-[500px] relative flex-shrink-0">
+            <Image
+              src={image}
+              alt={`Slide ${index + 1}`}
+              layout="fill"
+              objectFit="cover"
+              className="object-cover"
+            />
+          </div>
         ))}
       </div>
       <div className="absolute inset-0 flex items-center justify-between px-4 sm:px-6">
