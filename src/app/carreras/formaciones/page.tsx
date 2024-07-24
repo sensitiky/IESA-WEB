@@ -23,7 +23,7 @@ export default function Formaciones() {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/operador pc.webp"
+                  src="/operador.webp"
                   width={500}
                   height={500}
                   alt="Operador de informática"
@@ -57,7 +57,7 @@ export default function Formaciones() {
               </div>
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/masajistaprof.webp"
+                  src="/masajista.webp"
                   width={500}
                   height={500}
                   alt="Masajista Profesional"
@@ -125,7 +125,7 @@ export default function Formaciones() {
               </div>
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/admin contable.webp"
+                  src="/contable.webp"
                   width={500}
                   height={500}
                   alt="Administrativo Contable"
@@ -163,7 +163,7 @@ export default function Formaciones() {
               </div>
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/reparacion pc.webp"
+                  src="/reparacion.webp"
                   width={500}
                   height={500}
                   alt="Armado y configuración de PC y notebook"
@@ -179,7 +179,7 @@ export default function Formaciones() {
                   <AccordionItem value="descripcion">
                     <AccordionTrigger>Descripción</AccordionTrigger>
                     <AccordionContent>
-                      Curso especializado en ensamblaje y configuración de
+                      Formación especializada en ensamblaje y configuración de
                       computadoras y notebooks.
                     </AccordionContent>
                   </AccordionItem>
@@ -199,7 +199,7 @@ export default function Formaciones() {
               </div>
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/instalacion redes.webp"
+                  src="/seguridad.webp"
                   width={500}
                   height={500}
                   alt="Instalación y reparación de sistemas electrónicos y de seguridad."
@@ -216,7 +216,7 @@ export default function Formaciones() {
                   <AccordionItem value="descripcion">
                     <AccordionTrigger>Descripción</AccordionTrigger>
                     <AccordionContent>
-                      Curso avanzado en montaje y reparación de sistemas
+                      Formación avanzada en montaje y reparación de sistemas
                       electrónicos y seguridad.
                     </AccordionContent>
                   </AccordionItem>
@@ -236,7 +236,44 @@ export default function Formaciones() {
               </div>
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/inst redes 2.webp"
+                  src="/seguridad.webp"
+                  width={500}
+                  height={500}
+                  alt="Instalación y reparación de sistemas electrónicos y de seguridad."
+                  className="aspect-square object-scale-down  rounded-lg mb-4"
+                />
+                <Accordion type="single" collapsible className="w-full mt-4">
+                  <AccordionItem value="nombre">
+                    <AccordionTrigger>Nombre</AccordionTrigger>
+                    <AccordionContent>Gestoría General</AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="descripcion">
+                    <AccordionTrigger>Descripción</AccordionTrigger>
+                    <AccordionContent>
+                      Orientada a capacitar a los participantes, con un enfoque
+                      práctico y sencillo de aprender, en tareas relacionadas a
+                      la Gestoría General, incluyendo los principales rubros:
+                      Gestoría Inmobiliaria, Gestoría Previsional, Gestoría
+                      Judicial y Gestoría Automotor.
+                    </AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="modalidad">
+                    <AccordionTrigger>Modalidad</AccordionTrigger>
+                    <AccordionContent>Presencial</AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="duracion">
+                    <AccordionTrigger>Duración</AccordionTrigger>
+                    <AccordionContent>6 meses</AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="resolucion">
+                    <AccordionTrigger>Disp. SPEPM</AccordionTrigger>
+                    <AccordionContent></AccordionContent>
+                  </AccordionItem>
+                </Accordion>
+              </div>
+              <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
+                <Image
+                  src="/redes.webp"
                   width={500}
                   height={500}
                   alt="Configuración, administración e instalación de redes."
@@ -272,7 +309,7 @@ export default function Formaciones() {
               </div>
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/estetica prof.webp"
+                  src="/estetica.webp"
                   width={500}
                   height={500}
                   alt="Estética Profesional"
@@ -306,7 +343,7 @@ export default function Formaciones() {
               </div>
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/motandor.webp"
+                  src="/electricidad.webp"
                   width={500}
                   height={500}
                   alt="Montador Electricista"
@@ -315,12 +352,16 @@ export default function Formaciones() {
                 <Accordion type="single" collapsible className="w-full mt-4">
                   <AccordionItem value="nombre">
                     <AccordionTrigger>Nombre</AccordionTrigger>
-                    <AccordionContent>Montador electricista domiciliario.</AccordionContent>
+                    <AccordionContent>
+                      Montador electricista domiciliario.
+                    </AccordionContent>
                   </AccordionItem>
                   <AccordionItem value="descripcion">
                     <AccordionTrigger>Descripción</AccordionTrigger>
                     <AccordionContent>
-                      Croquis de instalaciones, motores monofásicos, motores trífasicos, computos y presupuestos, circuitos especiales, instalaciones ed contadores y relés.
+                      Croquis de instalaciones, motores monofásicos, motores
+                      trífasicos, computos y presupuestos, circuitos especiales,
+                      instalaciones ed contadores y relés.
                     </AccordionContent>
                   </AccordionItem>
                   <AccordionItem value="modalidad">
