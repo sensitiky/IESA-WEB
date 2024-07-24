@@ -23,7 +23,7 @@ export default function Formaciones() {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/operador pc.jpeg"
+                  src="/operador pc.webp"
                   width={500}
                   height={500}
                   alt="Operador de informática"
@@ -57,7 +57,7 @@ export default function Formaciones() {
               </div>
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/masajistaprof.jpeg"
+                  src="/masajistaprof.webp"
                   width={500}
                   height={500}
                   alt="Masajista Profesional"
@@ -91,7 +91,7 @@ export default function Formaciones() {
               </div>
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/estilista.jpeg"
+                  src="/estilista.webp"
                   width={500}
                   height={500}
                   alt="Estilista Profesional"
@@ -125,7 +125,7 @@ export default function Formaciones() {
               </div>
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/admin contable.jpeg"
+                  src="/admin contable.webp"
                   width={500}
                   height={500}
                   alt="Administrativo Contable"
@@ -163,7 +163,7 @@ export default function Formaciones() {
               </div>
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/reparacion pc.jpeg"
+                  src="/reparacion pc.webp"
                   width={500}
                   height={500}
                   alt="Armado y configuración de PC y notebook"
@@ -199,7 +199,7 @@ export default function Formaciones() {
               </div>
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/instalacion redes.jpeg"
+                  src="/instalacion redes.webp"
                   width={500}
                   height={500}
                   alt="Instalación y reparación de sistemas electrónicos y de seguridad."
@@ -236,7 +236,7 @@ export default function Formaciones() {
               </div>
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/inst redes 2.jpeg"
+                  src="/inst redes 2.webp"
                   width={500}
                   height={500}
                   alt="Configuración, administración e instalación de redes."
@@ -272,7 +272,7 @@ export default function Formaciones() {
               </div>
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/estetica prof.jpeg"
+                  src="/estetica prof.webp"
                   width={500}
                   height={500}
                   alt="Estética Profesional"
@@ -306,7 +306,7 @@ export default function Formaciones() {
               </div>
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/motandor.jpeg"
+                  src="/motandor.webp"
                   width={500}
                   height={500}
                   alt="Montador Electricista"

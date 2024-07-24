@@ -169,7 +169,7 @@ const ContactForm: React.FC = () => {
       <Header />
       <div>
         <Image
-          src="/email.jpg"
+          src="/email.webp"
           width="1920"
           height="1080"
           alt="Logo instituto"

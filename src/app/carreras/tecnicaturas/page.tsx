@@ -17,7 +17,7 @@ export default function Component() {
             <div className="group">
               <div className="grid gap-4 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full flex flex-col">
                 <Image
-                  src="/Tecsistemas.jpeg"
+                  src="/Tecsistemas.webp"
                   width={500}
                   height={500}
                   alt="tecnicatura analista de sistemas"

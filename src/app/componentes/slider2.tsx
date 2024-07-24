@@ -4,11 +4,11 @@ import React, { JSX, SVGProps, useState, useEffect } from "react";
 import { useSwipeable } from "react-swipeable";
 
 const images = [
-  "/sistemas.jpg",
-  "/contador2.jpg",
-  "/estetica1.jpg",
-  "/abogacia.jpg",
-  "/disenio.jpg",
+  "/sistemas.webp",
+  "/contador2.webp",
+  "/estetica1.webp",
+  "/abogacia.webp",
+  "/disenio.webp",
 ];
 
 const Carousel2 = () => {

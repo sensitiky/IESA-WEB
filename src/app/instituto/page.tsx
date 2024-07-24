@@ -8,12 +8,12 @@ import Image from "next/image";
 
 export default function Instituto() {
   const images = [
-    "/iesa2.jpeg",
-    "/iesa3.jpeg",
-    "/iesa4.jpeg",
-    "/iesa5.jpeg",
-    "/iesa6.jpeg",
-    "/iesa7.jpeg",
+    "/iesa2.webp",
+    "/iesa3.webp",
+    "/iesa4.webp",
+    "/iesa5.webp",
+    "/iesa6.webp",
+    "/iesa7.webp",
   ];
 
   function Carousel() {

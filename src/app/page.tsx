@@ -23,7 +23,7 @@ export default function Component() {
         <section
           className="relative bg-no-repeat bg-fixed text-white py-24 md:py-32 lg:py-40"
           style={{
-            backgroundImage: "url(/IESA.jpeg)",
+            backgroundImage: "url(/IESA.webp)",
             backgroundPosition: "center 35%",
             backgroundSize: "cover", 
           }}
@@ -159,7 +159,7 @@ export default function Component() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="w-full max-w-full">
                 <Image
-                  src="/iesa2.jpeg"
+                  src="/iesa2.webp"
                   width="800"
                   height="800"
                   alt="Logo"
@@ -216,7 +216,7 @@ export default function Component() {
               </div>
               <div className="hidden md:flex justify-center">
                 <Image
-                  src="/iesa7.jpeg"
+                  src="/iesa7.webp"
                   width="600"
                   height="400"
                   alt="inscripción"

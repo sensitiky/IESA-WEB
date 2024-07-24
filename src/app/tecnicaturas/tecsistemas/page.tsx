@@ -44,7 +44,7 @@ const Tecsistemas = () => {
         <div className="container grid gap-8 px-4 md:px-6">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <img
-              src="/Tecsistemas.jpeg"
+              src="/Tecsistemas.webp"
               width={600}
               height={400}
               alt="Carrera universitaria"

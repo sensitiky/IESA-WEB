@@ -23,7 +23,7 @@ export default function cursos() {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/diseño grafico.jpg"
+                  src="/diseño grafico.webp"
                   width={500}
                   height={500}
                   alt="diseño gráfico digital"
@@ -54,7 +54,7 @@ export default function cursos() {
               </div>
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/fotografia1.jpg"
+                  src="/fotografia1.webp"
                   width={500}
                   height={500}
                   alt="Fotografía básica"
@@ -80,7 +80,7 @@ export default function cursos() {
               </div>
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/fotografia2.jpg"
+                  src="/fotografia2.webp"
                   width={500}
                   height={500}
                   alt="Fotografía avanzada"
@@ -107,7 +107,7 @@ export default function cursos() {
 
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/manosypies copia 2.jpg"
+                  src="/manosypies copia 2.webp"
                   width={500}
                   height={100}
                   alt="Curso de Manicura y podología"
@@ -136,7 +136,7 @@ export default function cursos() {
 
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/spa.jpg"
+                  src="/spa.webp"
                   width={500}
                   height={500}
                   alt="Spa"
@@ -165,7 +165,7 @@ export default function cursos() {
 
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/maquillaje.jpg"
+                  src="/maquillaje.webp"
                   width={500}
                   height={500}
                   alt="Maquillaje"
@@ -193,7 +193,7 @@ export default function cursos() {
 
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/colorimetria.jpg"
+                  src="/colorimetria.webp"
                   width={500}
                   height={500}
                   alt="Curso de Colorimetria"
@@ -221,7 +221,7 @@ export default function cursos() {
 
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/aparatologia.jpg"
+                  src="/aparatologia.webp"
                   width={500}
                   height={500}
                   alt="Curso de Aparatologia"
@@ -249,7 +249,7 @@ export default function cursos() {
 
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/aparatologia.jpg"
+                  src="/aparatologia.webp"
                   width={500}
                   height={500}
                   alt="Curso de Aparatologia"
@@ -276,7 +276,7 @@ export default function cursos() {
               </div>
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/depilacion.jpg"
+                  src="/depilacion.webp"
                   width={500}
                   height={500}
                   alt="Curso de Depilacion"
@@ -305,7 +305,7 @@ export default function cursos() {
 
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/c++.jpg"
+                  src="/c++.webp"
                   width={500}
                   height={500}
                   alt="Curso de Introducción a la programación"
@@ -334,7 +334,7 @@ export default function cursos() {
 
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/java.jpg"
+                  src="/java.webp"
                   width={500}
                   height={500}
                   alt="Curso de Java"
@@ -366,7 +366,7 @@ export default function cursos() {
 
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/php.jpg"
+                  src="/php.webp"
                   width={500}
                   height={500}
                   alt="Curso de PHP"
@@ -394,7 +394,7 @@ export default function cursos() {
 
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/python.jpg"
+                  src="/python.webp"
                   width={500}
                   height={500}
                   alt="Curso de Python"
@@ -421,7 +421,7 @@ export default function cursos() {
 
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/project.jpg"
+                  src="/project.webp"
                   width={500}
                   height={500}
                   alt="Curso de Project Manager"
@@ -448,7 +448,7 @@ export default function cursos() {
 
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/aplicaciones.jpg"
+                  src="/aplicaciones.webp"
                   width={500}
                   height={500}
                   alt="Curso de Desarrollo Movil"
@@ -475,7 +475,7 @@ export default function cursos() {
 
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/autocad.jpg"
+                  src="/autocad.webp"
                   width={500}
                   height={500}
                   alt="Curso de Autocad"
@@ -502,7 +502,7 @@ export default function cursos() {
 
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/tecnologias.jpg"
+                  src="/tecnologias.webp"
                   width={500}
                   height={500}
                   alt="Curso de Tecnologias"
@@ -531,7 +531,7 @@ export default function cursos() {
 
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/videojuegos.jpg"
+                  src="/videojuegos.webp"
                   width={500}
                   height={500}
                   alt="Curso de Videojuegos"
@@ -560,7 +560,7 @@ export default function cursos() {
 
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-allhover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/tango.jpg"
+                  src="/tango.webp"
                   width={500}
                   height={500}
                   alt="Curso de Tango gestion"
@@ -587,7 +587,7 @@ export default function cursos() {
 
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/streaming.jpg"
+                  src="/streaming.webp"
                   width={500}
                   height={500}
                   alt="Curso de Streaming"
@@ -616,7 +616,7 @@ export default function cursos() {
 
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/ganancias.jpg"
+                  src="/ganancias.webp"
                   width={500}
                   height={500}
                   alt="Curso de Ganancias y Bienes Personales"
@@ -645,7 +645,7 @@ export default function cursos() {
 
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/gestoria.jpg"
+                  src="/gestoria.webp"
                   width={500}
                   height={500}
                   alt="Curso de Gestoria"
@@ -672,7 +672,7 @@ export default function cursos() {
 
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-all hover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/barberia.jpg"
+                  src="/barberia.webp"
                   width={500}
                   height={500}
                   alt="Curso de Barbería"
@@ -702,7 +702,7 @@ export default function cursos() {
 
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-allhover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/drenaje.jpg"
+                  src="/drenaje.webp"
                   width={500}
                   height={500}
                   alt="Curso de Drenaje linfático"
@@ -733,7 +733,7 @@ export default function cursos() {
 
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-allhover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/ingles.jpg"
+                  src="/ingles.webp"
                   width={500}
                   height={500}
                   alt="Curso de Ingles"
@@ -761,7 +761,7 @@ export default function cursos() {
 
               <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-allhover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
                 <Image
-                  src="/portugues.jpg"
+                  src="/portugues.webp"
                   width={500}
                   height={500}
                   alt="Curso de Portugues"
