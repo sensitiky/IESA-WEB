@@ -786,6 +786,158 @@ export default function cursos() {
                   </AccordionItem>
                 </Accordion>
               </div>
+
+              <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-allhover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
+                <Image
+                  src="/reflexologia.webp"
+                  width={500}
+                  height={500}
+                  alt="Curso de Reflexologia"
+                  className="aspect-square object-cover rounded-lg"
+                />
+                <Accordion type="single" collapsible className="w-full mt-4">
+                  <AccordionItem value="nombre">
+                    <AccordionTrigger>Curso</AccordionTrigger>
+                    <AccordionContent>Reflexología</AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="descripcion">
+                    <AccordionTrigger>Descripción</AccordionTrigger>
+                    <AccordionContent>
+                      En este curso de reflexología aprenderás a tratar
+                      diferentes patologías y afecciones medicas de manera
+                      efectiva, utilizando los puntos reflejos en los pies.
+                    </AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="modalidad">
+                    <AccordionTrigger>Modalidad</AccordionTrigger>
+                    <AccordionContent>Presencial.</AccordionContent>
+                  </AccordionItem>
+                </Accordion>
+              </div>
+
+              <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-allhover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
+                <Image
+                  src="/notarial.webp"
+                  width={500}
+                  height={500}
+                  alt="Curso de Asist Notarial"
+                  className="aspect-square object-cover rounded-lg"
+                />
+                <Accordion type="single" collapsible className="w-full mt-4">
+                  <AccordionItem value="nombre">
+                    <AccordionTrigger>Curso</AccordionTrigger>
+                    <AccordionContent>Asistente Notarial</AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="descripcion">
+                    <AccordionTrigger>Descripción</AccordionTrigger>
+                    <AccordionContent>
+                      Este curso está orientado a brindar a los alumnos los
+                      elementos necesarios para desenvolverse con eficiencia e
+                      idoneidad en las funciones prácticas de una Escribanía,
+                      como asistente de Abogados o Escribanos.
+                    </AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="modalidad">
+                    <AccordionTrigger>Modalidad</AccordionTrigger>
+                    <AccordionContent>Presencial.</AccordionContent>
+                  </AccordionItem>
+                </Accordion>
+              </div>
+
+              <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-allhover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
+                <Image
+                  src="/master office.webp"
+                  width={500}
+                  height={500}
+                  alt="Curso de Master Office"
+                  className="aspect-square object-cover rounded-lg"
+                />
+                <Accordion type="single" collapsible className="w-full mt-4">
+                  <AccordionItem value="nombre">
+                    <AccordionTrigger>Curso</AccordionTrigger>
+                    <AccordionContent>Master Office</AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="descripcion">
+                    <AccordionTrigger>Descripción</AccordionTrigger>
+                    <AccordionContent>
+                      Este curso está orientado a destacarte en tu trabajo
+                      manejando como experto Microsoft Office, el software clave
+                      para potenciar tus tareas.
+                    </AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="modalidad">
+                    <AccordionTrigger>Modalidad</AccordionTrigger>
+                    <AccordionContent>Presencial.</AccordionContent>
+                  </AccordionItem>
+                </Accordion>
+              </div>
+
+              <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-allhover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
+                <Image
+                  src="/marketing1.webp"
+                  width={500}
+                  height={500}
+                  alt="Curso de Marketing"
+                  className="aspect-square object-cover rounded-lg"
+                />
+                <Accordion type="single" collapsible className="w-full mt-4">
+                  <AccordionItem value="nombre">
+                    <AccordionTrigger>Curso</AccordionTrigger>
+                    <AccordionContent>
+                      Marketing y dirección comercial
+                    </AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="descripcion">
+                    <AccordionTrigger>Descripción</AccordionTrigger>
+                    <AccordionContent>
+                      Desarrollar con precisión una estrategia comercial,
+                      implica tener en cuenta múltiples variables. A través de
+                      este curso, podrás abordar cada una de ellas con visión
+                      estratégica, desde las políticas de comunicación hasta los
+                      canales de distribución, pasando por innovación, precio,
+                      administración de la fuerza de ventas y satisfacción del
+                      cliente.
+                    </AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="modalidad">
+                    <AccordionTrigger>Modalidad</AccordionTrigger>
+                    <AccordionContent>Presencial.</AccordionContent>
+                  </AccordionItem>
+                </Accordion>
+              </div>
+
+              <div className="group flex flex-col rounded-lg bg-white dark:bg-gray-950 border border-gray-200 shadow-sm transition-allhover:shadow-lg dark:border-gray-800 dark:hover:bg-gray-800 p-6 min-h-full">
+                <Image
+                  src="/marketing2.webp"
+                  width={500}
+                  height={500}
+                  alt="Curso de Marketing"
+                  className="aspect-square object-cover rounded-lg"
+                />
+                <Accordion type="single" collapsible className="w-full mt-4">
+                  <AccordionItem value="nombre">
+                    <AccordionTrigger>Curso</AccordionTrigger>
+                    <AccordionContent>
+                      Marketing digital y comercio electrónico
+                    </AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="descripcion">
+                    <AccordionTrigger>Descripción</AccordionTrigger>
+                    <AccordionContent>
+                      Prepárate para iniciar una nueva carrera en marketing
+                      digital y comercio electrónico, y adquiere las habilidades
+                      necesarias para atraer y fidelizar a los clientes. Aprende
+                      cómo los consumidores interactúan con las marcas y cómo
+                      los especialistas utilizan las plataformas y herramientas
+                      online para comprar y vender productos y servicios.
+                    </AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="modalidad">
+                    <AccordionTrigger>Modalidad</AccordionTrigger>
+                    <AccordionContent>Presencial.</AccordionContent>
+                  </AccordionItem>
+                </Accordion>
+              </div>
             </div>
           </div>
         </div>
